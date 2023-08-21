@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./Signup.css">
+</head>
+<body>
+<div class="container">
+		<div class="signup_form">
+			<h1>Sign Up Form</h1>
+			<form action="Signup" method="post" enctype="multipart/form-data">
+				<div class="form_group">
+					<label for="username">UserName</label>
+					<input type="text" id="username" name="username">
+				</div>
+				<div class="form_group">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email">
+				</div>
+				<div class="form_group">
+					<label for="password">Password</label>
+					<input type="password" id="password" name="password">
+				</div>
+				<div class="form_group">
+					<label>Mobile</label>
+					<input type="number" id="mobile" name="mobile">
+				</div>
+				<div class="form_group">
+					<label>DOB</label>
+					<input type="date" id="date" name="date" required>
+				</div>
+				<div class="radio">
+					<label for="gender">Gender : </label>
+					<div class="radiooption">
+						<div>
+
+							<input type="radio" name="gender" value="male">
+							<label for="male">Male</label>
+						</div>
+						<div>
+							<input type="radio" name="gender" value="female">
+							<label for="female">Female</label>
+
+						</div>
+						<div>
+							<input type="radio" name="gender" value="others">
+							<label for="others">Others</label>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="form_group">
+					<label>file</label>
+					<input type="file" id="file" name="picture">
+				</div>
+				<div class="form_group">
+					<button class="btn">Submit</button>
+				</div>
+				<div class="form_group">
+					<span> Have An Account? </span>
+					<a href="./Login.html">Login here..</a>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
